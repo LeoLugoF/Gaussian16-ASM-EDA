@@ -1,0 +1,41 @@
+FILE USED TO GENERATE INPUTS\OUTPUTS
+
+--Gaussian parameters--
+%nprocshared=8
+%mem=8gb
+Method-Functional=pbe1pbe
+Basis-set=6-311g(d)
+Extra-command=
+IOp(3/74)=
+-----------------------
+
+--File Paths---------
+Path of XYZ file of IRC=/home/user/path.xyz
+Path of Multiwfn=
+---------------------
+
+--X axis parameters--
+Bond1=1,2
+Bond2=
+Angle1=1,2,3
+Angle2=1,2,3
+Pyramidalization1=1,2,3,3,2,4,4,2,1
+Pyramidalization2=
+Centroids1=1,2,3*1,2
+Centroids2=
+Dihedral1=1,2,3,4
+Hirshfeld1=2
+Hirshfeld2=3
+---------------------
+
+Distance between IRC points (if 1, all IRC points are considered)=5
+Charge and multiplicity of molecular complex=0,1
+More fragments can be added; only add the following lines: i.e. --Fragment3--
+--Fragment1--
+Charge and multiplicity of fragment 1=0,1
+Atom indexes of fragment 1=1-6,10
+SCF energy of optimized fragment 1=0.000000
+--Fragment2--
+Charge and multiplicity of fragment 2=0,1
+Atom indexes of fragment 2=12-15,18
+SCF energy of optimized fragment 2=0.000000
